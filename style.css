@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+}
+.section-header {
+  background-color: #ccc;
+  height: 125px;
+}
+
+.elementos-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.imagem-header {
+  height: 70px;
+}
+
+.cabeçalho-header {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pesquisar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-pesquisar {
+  height: 26px;
+  width: 154px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
+.button-pesquisar {
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #3d6dea;
+  color: #fff;
+  cursor: pointer;
+}
+
+.imagem-button {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.nav-linkc {
+  margin-right: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+.section-quickfind-and-carrousel {
+  margin-top: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.quick-find-pesquisar {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.quick-find-pesquisar h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.quick-find-pesquisar label {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.quick-find-pesquisar select,
+.quick-find-pesquisar input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.busca-rapida-pesquisar-botao {
+  background-color: #3d6dea;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.quick-find-pesquisar .imagem-button {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.carousel h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.carousel-container img {
+  width: 400px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+.lista-de-produtos {
+  margin-top: 40px;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.product-item img {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.product-item button {
+  background-color: #3d6dea;
+  color: #f8f8f8;
+  font-family: "Oswald", sans-serif;
+  border-style: none;
+  font-size: 18px;
+  border-radius: 12px;
+  height: 32px;
+  width: 200px;
+  cursor: pointer;
+}
+h3 {
+  font-family: "Lobster", cursive;
+  font-size: 42px;
+  font-weight: 400;
+}
+.itens-mais-revisados-e-Newsletter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.itens-mais-revisados-list {
+  width: 1600px;
+}
+
+.itens-mais-revisados-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  gap: 20px;
+  margin-left: 10px;
+}
+.Newsletter {
+  margin-left: 20px;
+}
+.button-Personalizado {
+  width: 192px;
+  margin-top: 10px;
+  background-color: #007bff;
+  border-style: none;
+  border-radius: 12px;
+  color: #f8f8f8;
+}
+.h2-Personalizado {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: #ccc;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.metodos-de-pagamento {
+  margin-left: 20px;
+  padding-top: 40px;
+}
+.links-rapidos {
+  display: flex;
+  flex-direction: column;
+}
+.social-midia-imgs {
+  padding-top: 15px;
+  width: 76px;
+  height: 60px;
+  padding-right: 20px;
+}
+.Contact-Us {
+  padding-right: 20px;
+}
+.contact-icon {
+  padding-top: 15px;
+  width: 76px;
+  height: 60px;
+  padding-right: 20px;
+}
+.Contact-Us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
