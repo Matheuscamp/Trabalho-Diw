@@ -24,7 +24,7 @@ git clone https://matheuscamp.github.io/Trabalho-Diw/
 2. After clone open the folder:
 
 ```
-Calculadora-IMC
+Trabalho-Diw
 ```
 
 3. Open the index file with browser:
