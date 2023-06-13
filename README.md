@@ -1,7 +1,10 @@
 # Trabalho-Diw
 
 Trabalho da Faculdade. Matéria: DESENVOLVIMENTO DE INTERFACES WEB
+
 Portal de eCommerce
+
+<img src="./imgs/preview-Trabalho-Diw.png">
 
 ## Live link:
 
